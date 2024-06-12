@@ -12,7 +12,7 @@ Make sure Node.js and MongoDB is installed
  
 Open Command Prompt or Terminal
 
-git clone https://github.com/rohan-git-repo/todo-list.git
+git clone https://github.com/rohan-git-repo/todo-mongo.git
 
 cd todo-list
 
