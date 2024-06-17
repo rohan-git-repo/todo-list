@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/todo_list')
+mongoose.connect('mongodb+srv://rohansharmanew1234:5u5p0iYD97Op1XrT@cluster0.ke8xjbj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(()=>console.log('MongoDB Database connected'))
 .catch(()=>console.log('MongoDB Database not connected'))
 
