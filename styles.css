@@ -7,8 +7,8 @@ body {
 
 #main {
   text-align: center;
-  margin: 20px auto;
-  width: 1000px;
+  margin: 0 auto;
+  max-width: 800px;
   padding: 10px;
 }
 
@@ -30,6 +30,7 @@ th {
 
 form {
   margin-bottom: 20px;
+  
 }
 
 label {
@@ -45,4 +46,7 @@ input[type="text"], input[type="submit"] {
 input[type="submit"] {
   cursor: pointer;
   background-color: #ddd;
+  
 }
+
+
