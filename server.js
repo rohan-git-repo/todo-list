@@ -50,3 +50,5 @@ app.listen(port,()=>{
         console.log(`Server Running at port number ${port}`);
     })
 
+const liveServer = require("live-server");
+liveServer.start();
