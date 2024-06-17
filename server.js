@@ -49,7 +49,4 @@ app.delete("/remove/:name", async (req, res) => {
 app.listen(port,()=>{
         console.log(`Server Running at port number ${port}`);
     })
-    
-var liveServer = require("live-server");
-liveServer.start();
 
